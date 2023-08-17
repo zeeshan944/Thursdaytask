@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+  }
+
+  @media (max-width: 767px) {
+    .flex-container {
+      flex-direction: column-reverse;
+     
+    }
+    .h2{
+        width: 100%;
+    }
+  }
+  
+
+  .col-custom {
+    flex: 1;
+    min-width: 50%; /* Each column should take up at least 50% width */
+  }
+
+.btn-primary{
+margin-top: 20px;
+  }
